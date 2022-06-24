@@ -17,7 +17,7 @@
   
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i;Raleway:300,300i,400,400i,500,500i,600,600i,700,700i;Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
-  <script type="text/javascript" src="../assets/js/calculate.js"></script>
+  <script src="../assets/js/calculate.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
@@ -94,7 +94,8 @@
           </p>
         </div>
 
-      <img class="backpacker" src="assets/img/backpackers.jpg"/>
+      <img class="backpacker" alt="backpacker" src="assets/img/backpackers.jpg"/>
+      </div>
     </section><!-- End About Section -->
 
 
@@ -204,7 +205,6 @@
           <button><a href="#cta">Calculate Stay</a></button>
         </div>
 
-        <img />
 
       </div>
     </section><!-- End Sevices Section -->
@@ -224,7 +224,8 @@
             
               <div class="form-group">
                 <h4>Hostel (please select):</h4>
-                <img src="../assets/img/hostel.jpg"/>
+                <img src="../assets/img/hostel.jpg" alt="hostel"/>
+                <h6>Welcome to Christchurch Hostel! A beautiful hostel with a shared living area, shared kitchen, shared washroom, and rooms for single guests</h6>
                 <select class="form-control" id="hostel">
                  <option value="0">NOT THIS OPTION</option>
                   <option value="30.00">1 day 1 Person</option>
@@ -242,7 +243,8 @@
             
               <div class="form-group">
                 <h4>Hotel (please select):</h4>
-                <img src="../assets/img/hotel.jpg" />
+                <img src="../assets/img/hotel.jpg" alt="hotel"/>
+                <h6>Welcome to Christchurch Hotel! A beautiful hotel for one or two guests offering lovely rooms with beautiful bathrooms</h6>
                 <select class="form-control" id="hotel">
                  <option value="0">NOT THIS OPTION</option>
                   <option value="157.00">1 day 1 Person</option>
@@ -261,7 +263,8 @@
             
               <div class="form-group">
                 <h4>Motel (please select):</h4>
-                <img src="../assets/img/motel.jpg" />
+                <img src="../assets/img/motel.jpg" alt="motel"/>
+                <h6>Welcome to Christchurch Motel! A beautiful motel with accommodation offerings for two to four people</h6>
                 <select class="form-control" id="motel">
                  <option value="0">NOT THIS OPTION</option>
                   <option value="540.00">3 days 2 People</option>
@@ -297,7 +300,8 @@
             <!--This is where the house prices section starts-->
             <div class="form-group">
                 <h4>House (please select):</h4>
-                <img src="../assets/img/house.jpg" />
+                <img src="../assets/img/house.jpg" alt="house"/>
+                <h6>Welcome to Christchurch Bella Maison! A beautiful historic house with accommodation for one to four guests</h6>
                 <select class="form-control" id="house">
                  <option value="0">NOT THIS OPTION</option>
                  <option value="480.00">2 days 1 Person</option>
@@ -371,7 +375,7 @@
                 <div class="form-group" id="extras">		
                     <div class="col-sm-12 col-xs-6">
                       <div class="extra-container" id="breakfast-col">
-                        <img src="../assets/img/breakfast.jpg" title="breakfast" id="breakfast"/>
+                        <img src="../assets/img/breakfast.jpg" title="breakfast" alt="breakfast" id="breakfast"/>
                         <div class="extra-name">Breakfast</div>
                         <h6>All you can eat buffet including bacon, eggs, continental break, tea, toast, and juices</h6>
                         <div class="extra-price">$100</div>
@@ -379,30 +383,34 @@
                     </div>
                     <div class="col-sm-12 col-xs-6">
                       <div class="extra-container" id="lunch-col">
-                        <img src="../assets/img/lunch.jpg" title="lunch" id="lunch"/>
+                        <img src="../assets/img/lunch.jpg" title="lunch" alt="lunch" id="lunch"/>
                         <div class="extra-name">Lunch</div>
+                        <h6>All you can eat buffet lunch including baked beans, sausages, a selection of salads, tea, toast, and juices</h6>
                         <div class="extra-price">$100</div>
                       </div>
                     </div>
                     <div class="col-sm-12 col-xs-6">
                       <div class="extra-container" id="dinner-col">
-                        <img src="../assets/img/dinner.jpg" title="dinner" id="dinner"/>
+                        <img src="../assets/img/dinner.jpg" title="dinner" alt="dinner" id="dinner"/>
                         <div class="extra-name">Dinner</div>
+                        <h6>All you can eat buffet including steak, roast chicken, mashed potato, roast vegetables, tea, coffee, and fruit juices</h6>
                         <div class="extra-price">$100</div>
                       </div>
                     </div>
                     <div class="col-sm-12 col-sm-offset-2 col-xs-6">
                       <div class="extra-container" id="internet-col">
-                        <img src="../assets/img/internet.jpg" title="internet" id="internet"/>
+                        <img src="../assets/img/internet.jpg" title="internet" alt="internet" id="internet"/>
                         <div class="extra-name">Internet</div>
+                        <h6>Unlimited internet access during your stay</h6>
                         <div class="extra-price">$20</div>
                       </div>
                     </div>
                     <div class="col-sm-12 col-xs-6 col-xs-offset-3 col-sm-offset-0">
                       
                       <div class="extra-container" id="laundry-col">
-                        <img src="../assets/img/laundry.png" title="laundry" id="laundry"/>
+                        <img src="../assets/img/laundry.png" title="laundry" alt="Laundry" id="laundry"/>
                         <div class="extra-name">Load of Laundry</div>
+                        <h6>Unlimited laundry services during your stay</h6>
                         <div class="extra-price">$40</div>
                       </div>
                     </div>
@@ -433,6 +441,9 @@
                 </div>
         </div>
       </div>
+      </div>
+      </div>
+      
     </section><!-- End Cta Section -->
 
     
@@ -541,7 +552,7 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.3615066381267!2d172.67465631602337!3d-43.49479357912705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d31893c66862ca1%3A0x9b9b2715a747b193!2s100%20Lake%20Terrace%20Road%2C%20Burwood%2C%20Christchurch%208061!5e0!3m2!1sen!2snz!4v1652242296044!5m2!1sen!2snz" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.3615066381267!2d172.67465631602337!3d-43.49479357912705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d31893c66862ca1%3A0x9b9b2715a747b193!2s100%20Lake%20Terrace%20Road%2C%20Burwood%2C%20Christchurch%208061!5e0!3m2!1sen!2snz!4v1652242296044!5m2!1sen!2snz" allowfullscreen></iframe>
         </div>
 
         <div class="row mt-5">
@@ -572,7 +583,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contact.php" method="post" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -643,7 +654,7 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
             <p>Enter your email to subscribe to the Tourism NZ newsletter</p>
-            <form action="" method="post">
+            <form action="post" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
